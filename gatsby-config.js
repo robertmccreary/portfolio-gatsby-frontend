@@ -28,14 +28,14 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        //  apiURL: "https://rotify-gatsby.herokuapp.com", //staging server
-        apiURL: `http://localhost:1337`, // local server
+        apiURL: "https://rotify-gatsby.herokuapp.com", //staging server
+        // apiURL: `http://localhost:1337`, // local server
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [`about`],
+        // contentTypes: [`jobs`, `projects`, `blogs`],
+        // singleTypes: [`about`],
       },
     },
     {
